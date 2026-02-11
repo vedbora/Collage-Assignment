@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vedant Bora Resume</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* LEFT SIDE */
+.left {
+    width: 35%;
+    background: #1f2937;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    background: #ccc;
+}
+
+.left h2 {
+    margin-bottom: 5px;
+}
+
+.left h4 {
+    font-weight: normal;
+    color: #9ca3af;
+    margin-bottom: 25px;
+}
+
+.section {
+    text-align: left;
+    margin-top: 25px;
+}
+
+.section h3 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #374151;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.section p, .section li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #d1d5db;
+}
+
+.section ul {
+    padding-left: 18px;
+}
+
+/* RIGHT SIDE */
+.right {
+    width: 65%;
+    padding: 30px;
+}
+
+.right h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    border-bottom: 2px solid #1f2937;
+    padding-bottom: 5px;
+}
+
+.right h3 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.job-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.right ul {
+    margin: 10px 0 15px 20px;
+}
+
+.right li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.edu-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="left">
+        <div class="my pic 2.jpeg"></div>
+
+        <h2>Vedant Bora</h2>
+        <h4>Java Developer</h4>
+
+        <div class="section">
+            <h3>CONTACT</h3>
+            <p>📍 Pune, Maharashtra</p>
+            <p>📞 9823033829</p>
+            <p>✉ vedantb9850@gmail.com</p>
+            <p>🌐 vedantportfolio1.netlify.app</p>
+            <p>🔗 linkedin.com/in/vedant-bora-79b73a3a0</p>
+        </div>
+
+        <div class="section">
+            <h3>SKILLS</h3>
+            <ul>
+                <li>Java (Core, OOP)</li>
+                <li>Spring Boot</li>
+                <li>REST APIs</li>
+                <li>SQL</li>
+                <li>JPA / Hibernate</li>
+                <li>Apache Kafka</li>
+                <li>Maven</li>
+                <li>Git & GitHub</li>
+                <li>Postman</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>CORE CONCEPTS</h3>
+            <ul>
+                <li>MVC Architecture</li>
+                <li>Client-Server Architecture</li>
+                <li>Transaction Handling</li>
+                <li>Global Exception Handling</li>
+                <li>API Testing & Debugging</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+
+        <h2>PROFILE</h2>
+        <p>
+            Java Developer fresher with strong foundation in Java, Spring Boot,
+            REST APIs and SQL. Built backend applications including a Wallet
+            Transaction System using Kafka and JPA. Completed virtual internships
+            at Amazon and JP Morgan, eager to grow as a Java Backend Developer.
+        </p>
+
+        <h2>PROJECT</h2>
+
+        <div class="job-title">
+            <span>Wallet Transaction System (Spring Boot & Kafka)</span>
+            <span>Dec 2025</span>
+        </div>
+
+        <ul>
+            <li>Developed 10+ REST APIs for wallet and transaction management.</li>
+            <li>Implemented credit/debit workflows with validation logic.</li>
+            <li>Integrated Apache Kafka for asynchronous transaction processing.</li>
+            <li>Used Spring Data JPA with H2 Database for persistence.</li>
+            <li>Implemented global exception handling for standardized responses.</li>
+        </ul>
+
+        <h2>EXPERIENCE</h2>
+
+        <div class="job-title">
+            <span>Solutions Architecture Virtual Intern – Amazon</span>
+            <span>Nov 2025 – Dec 2025</span>
+        </div>
+        <ul>
+            <li>Designed scalable hosting architecture based on business needs.</li>
+            <li>Applied cloud concepts like scalability & fault tolerance.</li>
+            <li>Proposed structured backend solutions.</li>
+        </ul>
+
+        <div class="job-title">
+            <span>Software Engineering Virtual Intern – JP Morgan</span>
+            <span>Sep 2025 – Oct 2025</span>
+        </div>
+        <ul>
+            <li>Built REST APIs using Spring Boot.</li>
+            <li>Integrated Kafka for event-driven processing.</li>
+            <li>Used H2 database for backend testing.</li>
+        </ul>
+
+        <h2>EDUCATION</h2>
+
+        <div class="edu-title">B.Tech – Information Technology</div>
+        <p>Walchand Institute Of Technology, Solapur</p>
+        <p>2027 | CGPA: 8.00</p>
+
+        <h2>CERTIFICATIONS</h2>
+        <ul>
+            <li>HackerRank Software Engineer Intern Certification (2025)</li>
+            <li>HackerRank Java (Basic) Certification (2025)</li>
+        </ul>
+
+    </div>
+
+</div>
+
+</body>
+</html>
